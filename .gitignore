@@ -1,0 +1,9 @@
+/bin/
+/tmp/
+/dist/
+.env
+.idea/
+.vscode/
+.DS_Store
+coverage.out
+internal/repository/sqlc

@@ -1,0 +1,26 @@
+server:
+  port: 8080
+  read_timeout_sec: 15
+  write_timeout_sec: 15
+  env: development
+
+db:
+  driver: postgres
+  host: localhost
+  port: 5432
+  user: app
+  pass: password
+  name: appdb
+  sslmode: disable
+
+logging:
+  level: info
+  json: true
+
+features:
+  auth_jwt:
+    enable: false
+  cache_redis:
+    enable: false
+  queue_nats:
+    enable: false
