@@ -66,6 +66,3 @@ Error responses follow:
 ## SQLC & Scalar
 - `make sqlc` generates repository code from queries.
 - `make docs` can be wired to a Scalar CLI to regenerate the OpenAPI bundle.
-
-## Next Steps
-See `NEXT_STEPS.md` for a concise checklist to finish hardening the starter in environments with network access (module downloads, database wiring, docs refresh).
