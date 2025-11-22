@@ -1,0 +1,12 @@
+version: "2"
+sql:
+  - engine: postgresql
+    schema: internal/db/migrations
+    queries: internal/db/queries
+    codegen:
+      - out: internal/repository/sqlc
+        plugin: go
+        options:
+          package: sqlc
+          emit_interface: false
+          emit_empty_slices: true
